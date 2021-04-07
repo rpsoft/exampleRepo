@@ -16,27 +16,5 @@ while( startValue < 10 ){
   startValue <- startValue + 1
 }
 
-print("something else")
-
-doubleIt <- function( aNumber ){
-  return(aNumber * 2)
-}
-
-doubleIt(5)
-
-doubleIt(5)
-doubleIt(7)
-doubleIt(73)
-
-library(dplyr)
-
-2 %>% doubleIt() %>% doubleIt() %>% doubleIt()
-
-doubleIt(doubleIt(doubleIt(2)))
-
-
-print("THIS IS A MODIFICATION")
-
-12*432
 
 
